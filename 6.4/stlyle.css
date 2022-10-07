@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    margin: auto;
+    background: #00a8c7;
+  }
+h1{
+    text-align: center;
+    font-size: 2em;
+    box-shadow: 0rem 0.5rem 1rem 0rem;
+    
+}
+
+.button{
+    font-size: 3em;
+}
+.input{
+    font-size: 3em;
+  
+}
+.logo{
+    width: 5rem;
+    
+}
+body{
+    text-align: center;
+    background-color: rgb(242, 242, 247);
+}
