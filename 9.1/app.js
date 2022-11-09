@@ -30,10 +30,12 @@ window.onclick = function(event) {
 function check_age(){
     if(input.value >= 18){
         body.style.backgroundColor= "green";
-        h1.innerText= "oud genoeg"
+        h1.innerText= "oud genoeg";
+        modal.style.display = "none";
     }
     else {
         body.style.backgroundColor= "red";
-        h1.innerText=  "te jong"
+        h1.innerText=  "te jong";
+        modal.style.display = "none";
     }
 }
