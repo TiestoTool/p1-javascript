@@ -13,8 +13,8 @@ const getRandom = (min, max) => Math.floor(Math.random()*(max-min+1)+min);
 const square= document.querySelector('#square');
 setInterval(() => {
    
-   square.style.left= getRandom(0, 50 - 10)+'rem'; // 👈🏼 Horizontally
-   square.style.top = getRandom(0, 40 - 20)+'rem'; // 👈🏼 Vertically
+   square.style.left= getRandom(0, (Math.random()) - (Math.random()))+'rem'; // 👈🏼 Horizontally
+   square.style.top = getRandom(0, (Math.random()) - (Math.random()))+'rem'; // 👈🏼 Vertically
     
 }, 1000); // every 1/2 second
 }

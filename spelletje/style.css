@@ -19,7 +19,7 @@ body{
 }
 
 .counter{
-
+    
     display: flex;
     align-items: center;
 }
@@ -31,12 +31,13 @@ body{
 }
 
 #space {
+  
     position: relative;
     display: flex;
     align-items: center;
     width: 100vw;
     height: 90vh;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(227, 29, 29);
     
   }
 
